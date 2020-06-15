@@ -1,0 +1,39 @@
+{
+  "name": "node-mercado-libre",
+  "version": "0.0.13",
+  "author": "Santiago Nahuel Cordoba <santi8ago8@gmail.com>",
+  "description": "Mercadolibre SDK module for integration",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santi8ago8/MercadoLibreNode.git"
+  },
+  "scripts": {
+    "docs": "npx jsdoc -c jsdoc.json",
+    "start": "node index.js",
+    "develop": "node --inspect index.js"
+  },
+  "keywords": [
+    "api",
+    "mercadolibre",
+    "meli",
+    "sdk",
+    "integration"
+  ],
+  "dependencies": {
+    "mercadolibre": "0.0.13",
+    "needle": "^0.11.0",
+    "nodemailer": "^6.4.8"
+  },
+  "engine": {
+    "node": ">=0.6"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "activecampaign": "^1.2.5",
+    "activecampaign-rest": "^0.1.0",
+    "dotenv": "^8.2.0",
+    "jsdoc": "^3.6.4"
+  },
+  "type": "module"
+}
