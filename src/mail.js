@@ -14,8 +14,8 @@ async function main() {
     secure: false, // true for 465, false for other ports
     auth: {
       user: testAccount.user, // generated ethereal user
-      pass: testAccount.pass, // generated ethereal password
-    },
+      pass: testAccount.pass // generated ethereal password
+    }
   });
 
   // send mail with defined transport object
@@ -24,7 +24,7 @@ async function main() {
     to: "danielpaezsw66@gmail.com", // list of receivers
     subject: "Mensaje de prueba desde Comexgyp", // Subject line
     text: "Buenas buenas", // plain text body
-    html: "<b>Buenas buenas</b>", // html body
+    html: "<b>Buenas buenas</b>" // html body
   });
 
   console.log("Message sent: %s", info.messageId);
